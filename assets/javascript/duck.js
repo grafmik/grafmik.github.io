@@ -24,6 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
 function showDuck() {
     const duckImage = document.createElement('img');
     duckImage.src = '/assets/media/fullstack-duck.jpg';
+    duckImage.style.cursor = 'pointer';
+    duckImage.addEventListener('click', () => {
+        window.location.href = 'game.html';
+    });
     const duckButton = document.getElementById('duck-button');
     duckButton.replaceWith(duckImage);
 }
