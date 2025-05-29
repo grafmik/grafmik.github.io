@@ -32,7 +32,7 @@ education:
 
 skills:
   - category: Back-end
-    skill: 
+    skill:
       - Java
       - Spring
       - JPA
@@ -68,6 +68,19 @@ skills:
 #  Expérience front-end
 
 experience:
+  - role: Expert technique full-stack & Coach technique
+    time: Déc 2024 - Juil 2025 (8 mois)
+    company: Hotela, Montreux, Suisse
+    content: |
+      Accompagnement de la transformation numérique d’un système monolithique Delphi vers une architecture moderne
+    details:
+      - Coaching technique de 4 développeurs Delphi pour les former aux technologies modernes et aux bonnes pratiques de développement
+      - Définition et mise en place des standards de qualité (revues de code, structuration, tests automatisés)
+      - Conception et développement d’une application Java Spring Boot / Angular intégrée à des services externes
+      - Collaboration étroite avec une centrale partenaire suisse
+    technologies_used: |
+      Java, Spring Boot, Angular, OpenAPI, REST, Azure, Git, SQL Server, TDD, Agile, Scrum
+
   - role: Développeur back-end
     time: Fév 2024 - Août 2024 (7 mois)
     company: Ville de Lausanne, Lausanne, Suisse
@@ -75,9 +88,9 @@ experience:
       Développement d'une application de gestion des autorisations commerciales de la ville de Lausanne
     details:
       - Développement, intégration et tests
-    technologies_used: | 
+    technologies_used: |
       Java, GraphQL, OpenAPI, Spring Data, Hibernate, PostgreSQL, Docker, Git, Gitlab, Redmine, Scrum, Agile
-  
+
   - role: Développeur back-end
     time: Oct 2023 - Déc 2023 (3 mois)
     company: Globaz, Neuchâtel, Suisse
@@ -86,7 +99,7 @@ experience:
     details:
       - Développement, intégration et tests
       - Respect de délais stricts
-    technologies_used: | 
+    technologies_used: |
       Java, Quarkus, REST, Hibernate, Envers, Liquibase, PostgreSQL, Keycloak, Docker, Git, Sonar, ArchUnit, Renovate, Dependency-Track, Gitlab, Jira, TDD, DDD, architecture hexagonale, Feature Workflow, Scrum, Agile
 
   - role: Développeur
@@ -97,9 +110,9 @@ experience:
     details:
       - Développement, intégration et tests
       - Veille technologique
-    technologies_used: | 
+    technologies_used: |
       Java, NextJS, React, Flutter, Web3/Solidity, outils de Machine Learning
-      
+
   - role: Expert technique full-stack
     time: Nov 2016 - Déc 2020 (50 mois)
     company: Etat de Vaud, Lausanne, Suisse
@@ -114,7 +127,7 @@ experience:
       - Découverte du fonctionnel étatique, expérience positive avec une administration publique
       - Synchronisation avec de multiples équipes, notamment métier, architecture, ESB, infra, éditique, archivage, etc.
       - Amélioration d'une application de gestion des inscriptions aux examens, des procédures de qualification, de la délivrance des titres et de l'archivage électronique
-    technologies_used: | 
+    technologies_used: |
       Java, Javascript, Angular, REST, JSON, JEE, Spring MVC, Spring Data, Hibernate, SQL Server, Oracle, Jaxb, Jackson, ESB, Git, Tomcat, Jira, Bitbucket, Feature Workflow, Jenkins, Scrum, Agile
 
   - role: Développeur front-end
@@ -126,7 +139,7 @@ experience:
       - Contexte commercial initialement difficile
       - Restauration de la confiance client grâce notamment à une fréquence accrue des livraisons et du feedback, inspirée de la méthodologie Scrum
       - Mise en place de toute la partie front-end
-    technologies_used: | 
+    technologies_used: |
       Javascript, AngularJS, Swagger, REST, JSON, Git, Scrum, Agile
 
   - role: Expert technique full-stack
@@ -138,15 +151,15 @@ experience:
       - Développement Full Stack en JavaScript/Angular et Java/Spring/Hibernate
       - Qualité de code garantie notamment par un Feature Workflow et des pull request validées après un code review systématique entre collaborateurs
       - Start-up en pleine expansion, investissement ambitieux, conquête d'un marché inexploré, ambiance de développement bouillonnante et innovative
-    technologies_used: | 
+    technologies_used: |
       Javascript, AngularJS, REST, JSON, JEE, Spring MVC, Spring Data, Hibernate, SQL Server, Spring Security, Flyway, Jackson, Git, Tomcat, Jira, Bitbucket, Feature Workflow, Scrum, Agile
-      
+
   - role: Formation technique complémentaire
     time: Avr 2015 - Août 2015 (5 mois)
     company: Ateliers Nomades, Genève, Suisse
     content: |
       Exploration technologique et développement d'applications
-    technologies_used: | 
+    technologies_used: |
       Environnement Technique : AngularJS, React, Ionic
 
   - role: Expert technique full-stack
@@ -160,9 +173,9 @@ experience:
       - Conception de la communication client/serveur (JSON, REST)
       - Prise en charge de la partie exploitation (hébergement, installation et configuration serveur, workflow de développement, Git, Jenkins, etc.)
       - Développement, tests et intégration
-    technologies_used: | 
+    technologies_used: |
       JHipster, Javascript, AngularJS, REST, JSON, JEE, Spring MVC, Spring Data, Hibernate, SQL Server, Spring Security, Jenkins, Git, Cloud9, Docker
-      
+
   - role: Expert et Lead Technique Javascript / Angular.js
     time: Sep 2013 - Oct 2014 (14 mois)
     company: Blue Infinity / Pictet, Genève, Suisse
@@ -173,7 +186,7 @@ experience:
       - Conception de la communication client/serveur pour des données JSON complexes (REST)
       - Développement, tests et intégration
       - Application critique et urgente livrée avec succès dans les délais et le budget
-    technologies_used: | 
+    technologies_used: |
       Javascript, AngularJS, REST, JSON, JEE, Spring MVC, Spring Data, Hibernate, SQL Server, Spring Security, Jenkins, Sonar, Git, SVN, Tomcat
 
   - role: Lead developer
@@ -187,7 +200,7 @@ experience:
       - Développement et intégration, référence technique auprès des membres de l'équipe
       - Installation et configuration de serveurs
       - Veille technologique
-    technologies_used: | 
+    technologies_used: |
       Angular.js, Node.js, Jquery, HTML5, CSS3, Bootstrap, Ruby, Java, php, flash media server, windows 7, mac os X, Debian en ssh + bash en CLI pour les serveurs
 
   - role: Ingénieur conception et développement
@@ -201,7 +214,7 @@ experience:
       - Rédaction de spécifications et de documentation
       - Conception de l'architecture applicative
       - Développement et intégration
-    technologies_used: | 
+    technologies_used: |
       Java, EJB, JPA, Oracle, Spring, Hibernate, Swing, Web Services, Maven, Tibco (bus d'entreprise pour le parsing des KPI), JMS
 
   - role: Formation
@@ -209,7 +222,7 @@ experience:
     company: IAE Sorbonne, Paris, France
     content: |
       Diplôme MBA
-      
+
   - role: Ingénieur conception et développement
     time: Mars 2006 - Jul 2008 (28 mois)
     company: Cosmosbay / Sanofi-Aventis, Lyon, France
@@ -220,7 +233,7 @@ experience:
       - Assistance à la conception de l'architecture des bases de données
       - Développement, tests et intégration
       - Familiarisation avec le progiciel de gestion du groupe (SAP)
-    technologies_used: | 
+    technologies_used: |
       Java/J2EE, HQL, Eclipse, Oracle, SAP, Struts, Spring, Hibernate
 
   - role: Ingénieur conception et développement
@@ -233,7 +246,7 @@ experience:
       - Découverte de l'architecture 3-tiers et de portails Web complexes
       - Projet dynamique avec pic d'effectif à 20 personnes pour 5 mois
       - Spécifications, développement, documentation et tests
-    technologies_used: | 
+    technologies_used: |
       Java/J2EE, JBuilder, Weblogic, EJB, MDB, JMS, Oracle, UML
 
   - role: Ingénieur conception et développement
@@ -247,7 +260,7 @@ experience:
       - Documentation
       - Ecriture de scénarios de tests
       - Maintenance et résolution des erreurs
-    technologies_used: | 
+    technologies_used: |
       Windows, Java, Swing, FOP, JBuilder, Eclipse, PowerAMC
 
   - role: Ingénieur conception et développement
@@ -260,6 +273,6 @@ experience:
       - Recueil des besoins, rédaction de spécifications
       - Installation et paramétrage de progiciels de GED
       - Développements, documentation, tests
-    technologies_used: | 
+    technologies_used: |
       Windows, Java, VB, SQL, Kofax Capture, Filenet, SQL Server, SVN, Tomcat
 
