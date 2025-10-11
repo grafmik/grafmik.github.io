@@ -72,9 +72,9 @@ experience:
     time: Déc 2024 - Juil 2025 (8 mois)
     company: Hotela, Montreux, Suisse
     content: |
-      Accompagnement de la transformation numérique d’un système monolithique Delphi vers une architecture moderne
+      Accompagnement de la transformation numérique d’un système monolithique d’une ancienne technologie vers une architecture moderne
     details:
-      - Coaching technique de 4 développeurs Delphi pour les former aux technologies modernes et aux bonnes pratiques de développement
+      - Coaching technique de 4 développeurs pour les former aux technologies modernes et à des pratiques de développement adaptées
       - Définition et mise en place des standards de qualité (revues de code, structuration, tests automatisés)
       - Conception et développement d’une application Java Spring Boot / Angular intégrée à des services externes
       - Collaboration étroite avec une centrale partenaire suisse
