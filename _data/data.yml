@@ -87,6 +87,7 @@ experience:
       - Définition et mise en place des standards de qualité (revues de code, structuration, tests automatisés)
       - Conception et développement d’une application Java Spring Boot / Angular intégrée à des services externes
       - Collaboration étroite avec une centrale partenaire suisse
+      - "Découverte de l'IA agentique avec Junie sous IntelliJ : gains de productivité constatés"
     technologies_used: |
       Java, Spring Boot, Angular, OpenAPI, REST, Azure, Git, SQL Server, TDD, Agile, Scrum
 
