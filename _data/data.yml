@@ -68,7 +68,7 @@ profile: |
 experience:
   - role: Développeur senior full-stack
     time: Nov 2025 - aujourd'hui
-    company: Indépendant — 9mp.org, Lausanne
+    company: Indépendant / 9mp.org, Lausanne
     content: |
       Conception d'applications avec des agents IA, encadrés par des revues de code systématiques et des tests automatisés
     details:
@@ -111,7 +111,7 @@ experience:
 
   - role: Expert technique full-stack
     time: Jan 2021 - Sep 2023 (2 ans et 9 mois)
-    company: Indépendant — 9mp.org, Lausanne
+    company: Indépendant / 9mp.org, Lausanne
     content: |
       Applications web et mobile : apprentissage, quiz, génération d'images par IA
     details:
@@ -183,7 +183,7 @@ experience:
 
   - role: Ingénieur conception et développement Java
     time: 2003 - 2012
-    company: Softeam, Sword, Cosmosbay — Paris et Lyon
+    company: Softeam, Sword, Cosmosbay - Paris et Lyon
     content: |
       Société Générale CIB (agrégation de données de pricing et de KPI), Sanofi-Aventis, EDF, Ministère de l'Agriculture, Mutuelle Adrea
     technologies_used: |
