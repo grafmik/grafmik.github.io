@@ -97,6 +97,7 @@ experience:
       Développement d'une application de gestion des autorisations commerciales de la ville de Lausanne
     details:
       - Développement, intégration et tests
+      - "Découverte de l'IA générative : GitHub Copilot facilite déjà l'écriture de code"
     technologies_used: |
       Java, GraphQL, OpenAPI, Spring Data, Hibernate, PostgreSQL, Docker, Git, Gitlab, Redmine, Scrum, Agile
 
