@@ -1,7 +1,7 @@
-{% assign profile = site.data.data.profile %}
+{% assign profile = cv.profile %}
 {% if profile %}
 <section class="career-profile">
-    <h2 class="title">Profil</h2>
+    <h2 class="title">{{cv.labels.profile}}</h2>
     <div class="details">{{profile | newline_to_br}}</div>
 </section>
 {% endif %}

@@ -1,7 +1,7 @@
-{% assign education = site.data.data.education %}
+{% assign education = cv.education %}
 {% if education %}
 <section class="education">
-    <div class="title">Formation</div>
+    <div class="title">{{cv.labels.education}}</div>
     {% for ed in education %}
     <div class="education-item">
         <div class="degree">{{ed.degree}}</div>

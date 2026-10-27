@@ -25,6 +25,11 @@
         align-items: center;
         gap: 12px;
     }
+    .lang-switch {
+        color: var(--fg-color-dark);
+        font-weight: 700;
+        text-decoration: none;
+    }
     .print-button {
         background: none;
         border: none;

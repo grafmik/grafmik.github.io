@@ -1,7 +1,7 @@
-{% assign contact = site.data.data.contact %}
+{% assign contact = cv.contact %}
 {% if contact %}
 <section class="contact">
-    <div class="title">Contact</div>
+    <div class="title">{{cv.labels.contact}}</div>
     {% if contact.location %}
     <div class="contact-item">
         <i data-feather="map-pin"></i>

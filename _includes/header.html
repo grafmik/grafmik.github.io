@@ -1,13 +1,14 @@
 <div class="header">
-  <h1 class="title">{{site.data.data.name}}</h1>
+  <h1 class="title">{{cv.name}}</h1>
   <div class="header-actions">
-    <button class="print-button" onclick="window.print()" title="Imprimer ou enregistrer en PDF"><i data-feather="printer"></i></button>
-    {% if site.data.data.support_dark_mode%}
+    <a class="lang-switch" href="{{ cv.labels.switch_url | relative_url }}" title="{{cv.labels.switch_title}}">{{cv.labels.switch_label}}</a>
+    <button class="print-button" onclick="window.print()" title="{{cv.labels.print}}"><i data-feather="printer"></i></button>
+    {% if cv.support_dark_mode%}
     <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
     <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
     {%endif%}
   </div>
 </div>
 <div class="header2">
-  <h2 class="description">{{site.data.data.description}}</h2>
+  <h2 class="description">{{cv.description}}</h2>
 </div>

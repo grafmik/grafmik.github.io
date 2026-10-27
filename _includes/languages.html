@@ -1,7 +1,7 @@
-{% assign languages = site.data.data.languages %}
+{% assign languages = cv.languages %}
 {% if languages %}
 <section class="languages">
-    <div class="title">Langues</div>
+    <div class="title">{{cv.labels.languages}}</div>
     {% for lang in languages %}
     <div class="idiom">{{lang.idiom}}</div>
     <div class="level">{{lang.level}}</div>

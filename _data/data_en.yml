@@ -1,0 +1,200 @@
+name: Michael Graf
+description: Full-stack tech lead, Java / Angular
+support_dark_mode: true
+fork: true
+
+labels:
+  profile: Profile
+  experience: Experience
+  contact: Contact
+  languages: Languages
+  education: Education
+  skills: "% skills"
+  technologies: "Tech stack:"
+  print: Print or save as PDF
+  switch_url: /
+  switch_label: FR
+  switch_title: Version française
+
+contact:
+  location: Lausanne, Switzerland
+  nationality: Swiss citizen
+  phone: +41 78 698 12 06
+  email: grafmik@gmail.com
+  github: grafmik
+  linkedin: grafmik
+
+languages:
+  - idiom: French
+    level: native
+  - idiom: English
+    level: fluent, TOEFL 270/300
+  - idiom: German
+    level: basic
+
+education:
+  - degree: AI Essentials for Business
+    time: 2026
+    university: Harvard Business School Online
+
+  - degree: MBA, Project management major
+    time: 2009
+    university: IAE Sorbonne, Paris
+
+  - degree: MSc in Computer Engineering, Software major
+    time: 2002
+    university: UTBM, Belfort, France
+
+  - degree: Web and mobile development training
+    time: 2015
+    university: Ateliers Nomades, Geneva
+
+skills:
+  - category: Back-end
+    skill:
+      - Java, Spring Boot, Quarkus
+      - JPA / Hibernate
+      - REST / OpenAPI, GraphQL
+      - PostgreSQL, Oracle, SQL Server
+  - category: Front-end
+    skill:
+      - Angular, TypeScript
+      - React
+  - category: Quality & DevOps
+    skill:
+      - TDD, code reviews
+      - Hexagonal architecture, DDD
+      - Docker, GitLab, Jenkins, Sonar
+      - Azure
+  - category: Team
+    skill:
+      - Scrum, team coaching
+
+profile: |
+  20+ years of Java and web development, including 4 years with the State of Vaud and many assignments in banking and the public sector.
+  I modernize existing business applications and help teams grow their skills.
+  I use AI to deliver faster, while keeping code reviews, testing and security at the core.
+
+experience:
+  - role: Senior full-stack developer
+    time: Nov 2025 - present
+    company: Independent / 9mp.org, Lausanne
+    content: |
+      Building applications with local and cloud AI agents, kept in check by systematic code reviews and automated tests
+    details:
+      - 'Selected work on <a href="https://9mp.org">9mp.org</a>'
+
+  - role: Full-stack technical expert & technical coach
+    time: Dec 2024 - Jul 2025 (8 months)
+    company: Digital Solutions / Hotela, Montreux
+    content: |
+      Migration of a business-critical Delphi / Solaris system to Java Spring Boot / Angular
+    details:
+      - Coached 4 developers from the legacy team on Java, Spring Boot and Angular
+      - "Set up quality standards: code reviews, code structure, automated tests"
+      - Designed and built a Spring Boot / Angular application integrated with the services of a Swiss partner organisation
+      - "Introduced agentic AI (Junie in IntelliJ): development productivity doubled"
+    technologies_used: |
+      Java, Spring Boot, Angular, OpenAPI, Azure, SQL Server, TDD
+
+  - role: Back-end developer
+    time: Feb 2024 - Aug 2024 (7 months)
+    company: Digital Solutions / City of Lausanne
+    content: |
+      Application managing the City's commercial permits
+    details:
+      - Built GraphQL and REST (OpenAPI) APIs on PostgreSQL
+      - Adopted GitHub Copilot to speed up coding
+    technologies_used: |
+      Java, Spring Data, Hibernate, GraphQL, OpenAPI, PostgreSQL, Docker, GitLab
+
+  - role: Back-end developer
+    time: Oct 2023 - Dec 2023 (3 months)
+    company: Digital Solutions / Globaz, Neuchâtel
+    content: |
+      Investment strategy application for Swiss occupational pension plans (2nd pillar)
+    details:
+      - Quarkus development with hexagonal architecture (DDD), architecture rules enforced by ArchUnit
+      - Delivered on a tight schedule
+    technologies_used: |
+      Java, Quarkus, Hibernate Envers, Liquibase, PostgreSQL, Keycloak, Docker, Sonar
+
+  - role: Full-stack technical expert
+    time: Jan 2021 - Sep 2023 (2 years 9 months)
+    company: Independent / 9mp.org, Lausanne
+    content: |
+      Web and mobile applications: e-learning, quizzes, AI image generation
+    details:
+      - Hands-on work with new technologies (Next.js, Flutter, Machine Learning, Web3)
+    technologies_used: |
+      Java, Next.js, React, Flutter, Solidity
+
+  - role: Full-stack technical expert
+    time: Nov 2016 - Dec 2020 (4 years 2 months)
+    company: State of Vaud, Lausanne
+    content: |
+      Online services of the cantonal administration (e-government), then vocational training
+    details:
+      - Developed the "cyber" framework, which standardizes and speeds up the creation of new online public services (civil status certificates, municipal permits...)
+      - Built almost single-handedly the vocational training back office (DGEP) on top of this framework
+      - Introduced a feature workflow and systematic code reviews in the team
+      - Coordinated with business, architecture, ESB, infrastructure, document output and archiving teams
+    technologies_used: |
+      Java, Spring, Hibernate, Angular, REST, Oracle, SQL Server, ESB, Jenkins
+
+  - role: Front-end developer
+    time: Sep 2016 - Oct 2016 (2 months)
+    company: Lombard Odier, Geneva
+    content: |
+      Access rights manager: took over a project in difficulty
+    details:
+      - Restored client confidence through frequent deliveries (Scrum)
+      - Built the entire front end
+    technologies_used: |
+      AngularJS, REST, Swagger
+
+  - role: Full-stack technical expert
+    time: Nov 2015 - Aug 2016 (10 months)
+    company: eJust, Geneva
+    content: |
+      Start-up: online resolution platform for commercial disputes
+    details:
+      - Full-stack development with AngularJS / Spring
+      - Introduced a feature workflow and systematic code reviews
+    technologies_used: |
+      AngularJS, Java, Spring, Hibernate, SQL Server
+
+  - role: Full-stack technical expert
+    time: Nov 2014 - Mar 2015 (5 months)
+    company: parrain.org, Geneva
+    content: |
+      Crowdfunding website: front-end design, JHipster back end and production deployment
+
+  - role: Front-end tech lead
+    time: Sep 2013 - Oct 2014 (14 months)
+    company: Blue Infinity / Pictet, Geneva
+    content: |
+      Client master data and document flow management applications
+    details:
+      - Designed the front-end architecture and REST interfaces
+      - Business-critical application delivered on time and on budget
+    technologies_used: |
+      AngularJS, Java, Spring, Hibernate, SQL Server
+
+  - role: Lead developer
+    time: Feb 2012 - Jul 2013 (18 months)
+    company: 9mp.org, Lyon, France
+    content: |
+      Websites (gaming, chat, lead management)
+    details:
+      - Managed and trained a team of 7
+    technologies_used: |
+      AngularJS, Node.js, Java
+
+  - role: Java software engineer
+    time: 2003 - 2012
+    company: Softeam, Sword, Cosmosbay - Paris and Lyon, France
+    content: |
+      Société Générale CIB (pricing and KPI data aggregation), Sanofi-Aventis, EDF, French Ministry of Agriculture, Mutuelle Adrea
+    technologies_used: |
+      Java / J2EE, Spring, Hibernate, Oracle, JMS

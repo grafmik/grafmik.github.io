@@ -1,6 +1,6 @@
-{% assign data = site.data.data %}
+{% assign cv = site.data[page.cv_data] | default: site.data.data %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: 'fr' }}">
 {% include head.html %}
 <body>
     {{content}}

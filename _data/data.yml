@@ -3,6 +3,19 @@ description: Tech lead full-stack Java / Angular
 support_dark_mode: true
 fork: true
 
+labels:
+  profile: Profil
+  experience: Expérience
+  contact: Contact
+  languages: Langues
+  education: Formation
+  skills: Compétences %
+  technologies: "Environnement technique :"
+  print: Imprimer ou enregistrer en PDF
+  switch_url: /en/
+  switch_label: EN
+  switch_title: English version
+
 contact:
   location: Lausanne
   nationality: Nationalité suisse
