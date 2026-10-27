@@ -22,7 +22,11 @@
         .detail {
             @include body-text;
             display: list-item;
-            list-style-position: inside;
+            list-style-position: outside;
+            margin-left: 1.2em;
+            a {
+                color: var(--fg-color);
+            }
         }
         .technologies {
             @include body-text;

@@ -9,6 +9,13 @@
     </div>
     {% endif %}
 
+    {% if contact.nationality %}
+    <div class="contact-item">
+        <i data-feather="flag"></i>
+        <span>{{contact.nationality}}</span>
+    </div>
+    {% endif %}
+
     {% if contact.phone %}
     <div class="contact-item">
         <i data-feather="phone"></i>

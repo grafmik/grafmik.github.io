@@ -1,21 +1,77 @@
+// Marges de page à zéro : le navigateur n'a plus de place pour son en-tête
+// et son pied de page (date, URL, titre). Les marges réelles sont portées
+// par le padding de .container.
+@page {
+    size: A4;
+    margin: 0;
+}
+
 @media print {
-    @page {
-        size: A4;
+    // Toujours imprimer en thème clair, même si le mode sombre est actif
+    html:root,
+    html[data-theme='dark'] {
+        --bg-color: #ffffff;
+        --bg-color-cv: #ffffff;
+        --fg-color: #00629b;
+        --fg-color-dark: #023b5b;
+        --fg-color-body: #3c4045;
+        --fg-color-title-sm: #688293;
     }
+
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    body {
+        background-color: #ffffff;
+        margin: 0;
+    }
+
     .container {
-        margin:0;
-        padding:0;
+        // Réduit l'ensemble pour tenir sur 2 pages A4 sans toucher aux proportions
+        zoom: 0.8;
+        max-width: none;
+        min-height: 0;
+        margin: 0;
+        padding: 15mm 17mm 12mm;
         box-shadow: none;
         background-color: #ffffff;
-        width: 1000px;
+
         .container-block {
-            padding:0;
-            
-        }
-        .header {
-            input, label {
-                display: none;
+            width: 100%;
+            padding: 0;
+            gap: 8mm;
+
+            .sidebar {
+                margin-top: 0;
+                padding-right: 0;
             }
         }
+    }
+
+    .header,
+    .header2 {
+        width: 100%;
+    }
+
+    // Sélecteur renforcé : header.scss, importé après, redéfinit display
+    .container .header .header-actions {
+        display: none;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .experience-item,
+    .education-item {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .experiance .experience-item {
+        margin-bottom: 10px;
     }
 }
