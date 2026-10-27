@@ -53,9 +53,6 @@ skills:
       - Architecture hexagonale, DDD
       - Docker, GitLab, Jenkins, Sonar
       - Azure
-  - category: IA
-    skill:
-      - Claude Code, Junie, GitHub Copilot
   - category: Méthodes
     skill:
       - Scrum, coaching d'équipe
