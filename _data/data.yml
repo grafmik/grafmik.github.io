@@ -79,7 +79,7 @@ experience:
       - Coaching de 4 développeurs de l'équipe historique sur Java, Spring Boot et Angular
       - "Mise en place des standards de qualité : revues de code, structuration, tests automatisés"
       - Conception et développement d'une application Spring Boot / Angular intégrée aux services d'une centrale partenaire suisse
-      - "Introduction de l'IA agentique (Junie sous IntelliJ) : gains de productivité constatés"
+      - "Introduction de l'IA agentique (Junie sous IntelliJ) : productivité de développement doublée"
     technologies_used: |
       Java, Spring Boot, Angular, OpenAPI, Azure, SQL Server, TDD
 
