@@ -35,6 +35,10 @@
         min-height: 0;
         margin: 0;
         padding: 15mm 17mm 12mm;
+        // Répète le padding en haut et en bas de chaque page imprimée,
+        // sinon la page 2 commence collée au bord (marges @page à zéro)
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
         box-shadow: none;
         background-color: #ffffff;
 
