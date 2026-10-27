@@ -20,6 +20,10 @@ languages:
     level: notions
 
 education:
+  - degree: AI Essentials for Business
+    time: 2026
+    university: Harvard Business School Online
+
   - degree: MBA, option Gestion de projet
     time: 2009
     university: IAE Sorbonne, Paris
@@ -49,7 +53,7 @@ skills:
       - Architecture hexagonale, DDD
       - Docker, GitLab, Jenkins, Sonar
       - Azure
-  - category: IA appliquée au développement
+  - category: IA
     skill:
       - Claude Code, Junie, GitHub Copilot
   - category: Méthodes

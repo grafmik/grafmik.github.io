@@ -69,6 +69,12 @@
         text-decoration: none;
     }
 
+    // Un titre ne reste jamais seul en bas de page
+    .title {
+        break-after: avoid;
+        page-break-after: avoid;
+    }
+
     .experience-item,
     .education-item {
         break-inside: avoid;
