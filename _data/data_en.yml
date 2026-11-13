@@ -53,20 +53,34 @@ skills:
   - category: Back-end
     skill:
       - Java, Spring Boot, Quarkus
-      - JPA / Hibernate
-      - REST / OpenAPI, GraphQL
+      - Spring Security, Spring Cloud, Spring Batch
+      - JPA / Hibernate, MapStruct
+      - REST / OpenAPI, GraphQL, SOAP
+      - JMS / ActiveMQ, Apache Camel
       - PostgreSQL, Oracle, SQL Server
+      - Liquibase, Flyway
   - category: Front-end
     skill:
-      - Angular, TypeScript
-      - React
-  - category: Quality & DevOps
+      - Angular, TypeScript, NgRx, Nx
+      - React, Storybook
+      - PrimeNG, Tailwind
+  - category: Security
+    skill:
+      - OAuth2 / OIDC, Keycloak, Azure AD
+      - LDAP, OWASP Dependency-Check
+  - category: Quality & testing
     skill:
       - TDD, code reviews
-      - Hexagonal architecture, DDD
+      - Hexagonal architecture, DDD, ArchUnit
+      - JUnit 5, Mockito, AssertJ, REST Assured
+      - JaCoCo, PIT (mutation testing)
+      - Jest, Karma, Cypress, Selenium
+  - category: DevOps
+    skill:
       - Maven, NPM, Docker
-      - GitLab CI, Jenkins, Sonar
-      - Azure
+      - GitLab CI, Jenkins, Azure Pipelines, Sonar
+      - Helm, Terraform, Ansible
+      - Azure, OpenTelemetry
   - category: Team
     skill:
       - Scrum, team coaching
@@ -96,7 +110,7 @@ experience:
       - Designed and built a Spring Boot / Angular application integrated with the services of a Swiss partner organisation
       - "Introduced agentic AI (Junie in IntelliJ): development productivity doubled"
     technologies_used: |
-      Java, Spring Boot, Angular, OpenAPI, Azure, SQL Server, TDD
+      Java, Spring Boot, Spring Security (OAuth2, Azure AD), Apache Camel, Azure Service Bus, SOAP (CXF), MapStruct, Angular, PrimeNG, Tailwind, Jest, OpenAPI, Azure, SQL Server, Helm, Terraform, Azure Pipelines, TDD
 
   - role: Back-end developer
     time: Feb 2024 - Aug 2024 (7 months)
@@ -104,11 +118,11 @@ experience:
     content: |
       Application managing the City's commercial permits
     details:
-      - Built GraphQL and REST (OpenAPI) APIs on PostgreSQL
-      - "Upgraded to Spring Boot 3 / Java 21: javax to jakarta migration, Vaadin 24"
+      - Built GraphQL (Netflix DGS, Apollo Federation) and REST (OpenAPI) APIs on PostgreSQL
+      - "Upgraded to Spring Boot 3 / Java 21: javax to jakarta migration"
       - Adopted GitHub Copilot to speed up coding
     technologies_used: |
-      Java, Spring Data, Hibernate, GraphQL, OpenAPI, PostgreSQL, Docker, GitLab CI
+      Java, Spring Boot, Spring Data, Spring Batch, Hibernate, GraphQL DGS, OpenAPI, SOAP (JAX-WS), PostgreSQL, Flyway, LDAP, OWASP Dependency-Check, JUnit 5, Postman, Docker, GitLab CI
 
   - role: Back-end developer
     time: Oct 2023 - Dec 2023 (3 months)
@@ -117,9 +131,10 @@ experience:
       Investment strategy application for Swiss occupational pension plans (2nd pillar)
     details:
       - Quarkus development with hexagonal architecture (DDD), architecture rules enforced by ArchUnit
+      - Contributed to OIDC security with Keycloak
       - Delivered on a tight schedule
     technologies_used: |
-      Java, Quarkus, Hibernate Envers, Liquibase, PostgreSQL, Keycloak, Docker, Sonar
+      Java, Quarkus, Hibernate Envers, Liquibase, PostgreSQL, Keycloak (OIDC), OpenTelemetry, REST Assured, JaCoCo, PIT, Renovate, Docker, GitLab CI, Ansible, Sonar
 
   - role: Full-stack technical expert
     time: Jan 2021 - Sep 2023 (2 years 9 months)
@@ -142,7 +157,7 @@ experience:
       - Introduced a feature workflow and systematic code reviews in the team
       - Coordinated with business, architecture, ESB, infrastructure, document output and archiving teams
     technologies_used: |
-      Java, Spring, Hibernate, Angular, REST, Oracle, SQL Server, ESB, Jenkins
+      Java, Spring, Spring Security, Spring Cloud (Eureka, Config), Hibernate, Flyway, JMS / ActiveMQ, JTA (Atomikos), Apache Camel, SOAP, LDAP, Angular, Karma, Selenium, REST, Oracle, SQL Server, ESB, Jenkins
 
   - role: Front-end developer
     time: Sep 2016 - Oct 2016 (2 months)
