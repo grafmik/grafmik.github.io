@@ -64,7 +64,8 @@ skills:
     skill:
       - TDD, code reviews
       - Hexagonal architecture, DDD
-      - Docker, GitLab, Jenkins, Sonar
+      - Maven, NPM, Docker
+      - GitLab CI, Jenkins, Sonar
       - Azure
   - category: Team
     skill:
@@ -107,7 +108,7 @@ experience:
       - "Upgraded to Spring Boot 3 / Java 21: javax to jakarta migration, Vaadin 24"
       - Adopted GitHub Copilot to speed up coding
     technologies_used: |
-      Java, Spring Data, Hibernate, GraphQL, OpenAPI, PostgreSQL, Docker, GitLab
+      Java, Spring Data, Hibernate, GraphQL, OpenAPI, PostgreSQL, Docker, GitLab CI
 
   - role: Back-end developer
     time: Oct 2023 - Dec 2023 (3 months)
