@@ -40,20 +40,34 @@ skills:
   - category: Back-end
     skill:
       - Java, Spring Boot, Quarkus
-      - JPA / Hibernate
-      - REST / OpenAPI, GraphQL
+      - Spring Security, Spring Cloud, Spring Batch
+      - JPA / Hibernate, MapStruct
+      - REST / OpenAPI, GraphQL, SOAP
+      - JMS / ActiveMQ, Apache Camel
       - PostgreSQL, Oracle, SQL Server
+      - Liquibase, Flyway
   - category: Front-end
     skill:
-      - Angular, TypeScript
-      - React
-  - category: Qualité & DevOps
+      - Angular, TypeScript, NgRx, Nx
+      - React, Storybook
+      - PrimeNG, Tailwind
+  - category: Sécurité
+    skill:
+      - OAuth2 / OIDC, Keycloak, Azure AD
+      - LDAP, OWASP Dependency-Check
+  - category: Qualité & tests
     skill:
       - TDD, revues de code
-      - Architecture hexagonale, DDD
+      - Architecture hexagonale, DDD, ArchUnit
+      - JUnit 5, Mockito, AssertJ, REST Assured
+      - JaCoCo, PIT (tests de mutation)
+      - Jest, Karma, Cypress, Selenium
+  - category: DevOps
+    skill:
       - Maven, NPM, Docker
-      - GitLab CI, Jenkins, Sonar
-      - Azure
+      - GitLab CI, Jenkins, Azure Pipelines, Sonar
+      - Helm, Terraform, Ansible
+      - Azure, OpenTelemetry
   - category: Méthodes
     skill:
       - Scrum, coaching d'équipe
@@ -83,7 +97,7 @@ experience:
       - Conception et développement d'une application Spring Boot / Angular intégrée aux services d'une centrale partenaire suisse
       - "Introduction de l'IA agentique (Junie sous IntelliJ) : productivité de développement doublée"
     technologies_used: |
-      Java, Spring Boot, Angular, OpenAPI, Azure, SQL Server, TDD
+      Java, Spring Boot, Spring Security (OAuth2, Azure AD), Apache Camel, Azure Service Bus, SOAP (CXF), MapStruct, Angular, PrimeNG, Tailwind, Jest, OpenAPI, Azure, SQL Server, Helm, Terraform, Azure Pipelines, TDD
 
   - role: Développeur back-end
     time: Fév 2024 - Août 2024 (7 mois)
@@ -91,11 +105,11 @@ experience:
     content: |
       Application de gestion des autorisations commerciales de la Ville
     details:
-      - Développement d'API GraphQL et REST (OpenAPI) sur PostgreSQL
-      - "Montée de version vers Spring Boot 3 / Java 21 : passage de javax à jakarta, Vaadin 24"
+      - Développement d'API GraphQL (Netflix DGS, Apollo Federation) et REST (OpenAPI) sur PostgreSQL
+      - "Montée de version vers Spring Boot 3 / Java 21 : passage de javax à jakarta"
       - Adoption de GitHub Copilot pour accélérer l'écriture du code
     technologies_used: |
-      Java, Spring Data, Hibernate, GraphQL, OpenAPI, PostgreSQL, Docker, GitLab CI
+      Java, Spring Boot, Spring Data, Spring Batch, Hibernate, GraphQL DGS, OpenAPI, SOAP (JAX-WS), PostgreSQL, Flyway, LDAP, OWASP Dependency-Check, JUnit 5, Postman, Docker, GitLab CI
 
   - role: Développeur back-end
     time: Oct 2023 - Déc 2023 (3 mois)
@@ -104,9 +118,10 @@ experience:
       Application de stratégies de placement pour la prévoyance professionnelle (2e pilier)
     details:
       - Développement Quarkus en architecture hexagonale (DDD), avec règles d'architecture vérifiées par ArchUnit
+      - Participation à la sécurisation OIDC avec Keycloak
       - Livraison dans des délais serrés
     technologies_used: |
-      Java, Quarkus, Hibernate Envers, Liquibase, PostgreSQL, Keycloak, Docker, Sonar
+      Java, Quarkus, Hibernate Envers, Liquibase, PostgreSQL, Keycloak (OIDC), OpenTelemetry, REST Assured, JaCoCo, PIT, Renovate, Docker, GitLab CI, Ansible, Sonar
 
   - role: Expert technique full-stack
     time: Jan 2021 - Sep 2023 (2 ans et 9 mois)
@@ -129,7 +144,7 @@ experience:
       - Mise en place du Feature Workflow et des revues de code systématiques dans l'équipe
       - Coordination avec les équipes métier, architecture, ESB, infrastructure, éditique et archivage
     technologies_used: |
-      Java, Spring, Hibernate, Angular, REST, Oracle, SQL Server, ESB, Jenkins
+      Java, Spring, Spring Security, Spring Cloud (Eureka, Config), Hibernate, Flyway, JMS / ActiveMQ, JTA (Atomikos), Apache Camel, SOAP, LDAP, Angular, Karma, Selenium, REST, Oracle, SQL Server, ESB, Jenkins
 
   - role: Développeur front-end
     time: Sep 2016 - Oct 2016 (2 mois)
