@@ -91,6 +91,7 @@ experience:
       Application de gestion des autorisations commerciales de la Ville
     details:
       - Développement d'API GraphQL et REST (OpenAPI) sur PostgreSQL
+      - "Montée de version vers Spring Boot 3 / Java 21 : passage de javax à jakarta, Vaadin 24"
       - Adoption de GitHub Copilot pour accélérer l'écriture du code
     technologies_used: |
       Java, Spring Data, Hibernate, GraphQL, OpenAPI, PostgreSQL, Docker, GitLab
