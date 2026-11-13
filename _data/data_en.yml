@@ -104,6 +104,7 @@ experience:
       Application managing the City's commercial permits
     details:
       - Built GraphQL and REST (OpenAPI) APIs on PostgreSQL
+      - "Upgraded to Spring Boot 3 / Java 21: javax to jakarta migration, Vaadin 24"
       - Adopted GitHub Copilot to speed up coding
     technologies_used: |
       Java, Spring Data, Hibernate, GraphQL, OpenAPI, PostgreSQL, Docker, GitLab
