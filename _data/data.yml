@@ -89,14 +89,14 @@ skills:
 profile: |
   Plus de 20 ans de développement Java et web, dont 4 ans à l'État de Vaud et de nombreuses missions en banque et dans le secteur public.
   Je modernise des applications de gestion existantes et je fais monter les équipes en compétences.
-  J'utilise l'IA pour livrer plus vite, en gardant revues de code, tests et sécurité au centre.
+  J'orchestre des agents IA au quotidien : bien maîtrisé, ce nouveau paradigme permet d'atteindre des objectifs autrefois hors de portée.
 
 experience:
   - role: Développeur senior full-stack
     time: Nov 2025 - aujourd'hui
     company: Indépendant / 9mp.org, Lausanne
     content: |
-      Conception d'applications avec des agents IA locaux et cloud, encadrés par des revues de code systématiques et des tests automatisés
+      Création d'applications avec des agents IA locaux et cloud, de la conception à la mise en ligne
     details:
       - 'Réalisations visibles sur <a href="https://9mp.org">9mp.org</a>'
 

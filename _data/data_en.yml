@@ -89,14 +89,14 @@ skills:
 profile: |
   20+ years of Java and web development, including 4 years with the State of Vaud and many assignments in banking and the public sector.
   I modernize existing business applications and help teams grow their skills.
-  I use AI to deliver faster, while keeping code reviews, testing and security at the core.
+  I orchestrate AI agents every day: well mastered, this new paradigm makes once out-of-reach goals achievable.
 
 experience:
   - role: Senior full-stack developer
     time: Nov 2025 - present
     company: Independent / 9mp.org, Lausanne
     content: |
-      Building applications with local and cloud AI agents, kept in check by systematic code reviews and automated tests
+      Building applications with local and cloud AI agents, from design to go-live
     details:
       - 'Selected work on <a href="https://9mp.org">9mp.org</a>'
 
