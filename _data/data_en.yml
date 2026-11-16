@@ -108,7 +108,7 @@ experience:
     details:
       - Coached 4 developers from the legacy team on Java, Spring Boot and Angular
       - "Set up quality standards: code reviews, code structure, automated tests"
-      - Designed and built a Spring Boot / Angular application integrated with the services of a Swiss partner organisation
+      - Designed and built a Spring Boot / Angular application integrated with the services of a partner fund
       - "Introduced agentic AI (Junie in IntelliJ): development productivity doubled"
     technologies_used: |
       Java, Spring Boot, Spring Security (OAuth2, Azure AD), Apache Camel, Azure Service Bus, Angular, PrimeNG, Jest, Azure, SQL Server, Helm, Terraform, TDD
