@@ -1,10 +1,14 @@
 {% assign languages = cv.languages %}
 {% if languages %}
 <section class="languages">
-    <div class="title">{{cv.labels.languages}}</div>
-    {% for lang in languages %}
-    <div class="idiom">{{lang.idiom}}</div>
-    <div class="level">{{lang.level}}</div>
-    {% endfor %}
+    <h2 class="title">{{cv.labels.languages}}</h2>
+    <div class="language-list">
+        {% for lang in languages %}
+        <div class="language-item">
+            <span class="idiom">{{lang.idiom}}</span>
+            <span class="level">{{lang.level}}</span>
+        </div>
+        {% endfor %}
+    </div>
 </section>
 {% endif %}

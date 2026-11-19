@@ -1,15 +1,10 @@
-.header {
-    width: 90%;
-    margin: 0 auto;
+.header-actions {
+    position: absolute;
+    top: 12px;
+    right: 16px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    .title {
-        color: var(--fg-color-dark);
-        font-weight: bolder;
-        text-transform: uppercase;
-        margin-block-end: 0;
-    }
+    gap: 12px;
     input[type="checkbox"] {
         width: 0;
         height:0;
@@ -18,12 +13,6 @@
     label {
         cursor: pointer;
         color: var(--fg-color-dark);
-
-    }
-    .header-actions {
-        display: flex;
-        align-items: center;
-        gap: 12px;
     }
     .lang-switch {
         color: var(--fg-color-dark);
@@ -39,13 +28,31 @@
     }
 }
 
-.header2 {
+.header {
     width: 90%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    // Coordonnées centrées face au bloc nom + titre
+    align-items: center;
+    gap: 24px;
+    // Marge haute portée par l'en-tête et non par le nom, sinon elle
+    // fausse le centrage vertical des coordonnées
+    padding-top: 21px;
+    .title {
+        color: var(--fg-color-dark);
+        font-weight: bolder;
+        text-transform: uppercase;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
     .description {
         margin-block-start: 0;
         margin-block-end: 0;
         color: var(--fg-color);
         text-transform: uppercase;
+        // Le titre tient sur une ligne à côté des coordonnées
+        font-size: 20px;
+        white-space: nowrap;
     }
 }

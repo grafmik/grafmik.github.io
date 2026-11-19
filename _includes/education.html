@@ -1,12 +1,12 @@
 {% assign education = cv.education %}
 {% if education %}
 <section class="education">
-    <div class="title">{{cv.labels.education}}</div>
+    <h2 class="title">{{cv.labels.education}}</h2>
     {% for ed in education %}
     <div class="education-item">
-        <div class="degree">{{ed.degree}}</div>
-        <div class="university">{{ed.university}}</div>
-        <div class="time">{{ed.time}}</div>
+        <span class="degree">{{ed.degree}}</span>
+        <span class="university">{{ed.university}}</span>
+        <span class="time">{{ed.time}}</span>
     </div>
     {% endfor %}
 </section>

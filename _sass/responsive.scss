@@ -6,30 +6,39 @@
         // padding:0;
         // margin:0;
         box-shadow: none;
-        .container-block {
-
-            .sidebar {
-                div {
-                    text-align: left;
-                }                
-            }
-        }
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-        .container-block {
-            display: block;
-        }
-    }
     .header {
         display: block;
         .title {
             margin:0 auto;
         }
+        .description {
+            white-space: normal;
+        }
+        .contact {
+            margin-top: 12px;
+        }
+    }
+    .header-actions {
         input, label {
             display: none;
+        }
+    }
+    .skills .skill-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin-bottom: 6px;
+    }
+    .education .education-item {
+        flex-wrap: wrap;
+        column-gap: 8px;
+        row-gap: 0;
+        margin-bottom: 6px;
+        .time {
+            margin-left: 0;
         }
     }
 }

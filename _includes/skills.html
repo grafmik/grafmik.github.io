@@ -1,11 +1,12 @@
 {% assign skills = cv.skills %}
 {% if skills %}
 <section class="skills">
+    <h2 class="title">{{cv.labels.skills}}</h2>
     {% for sks in skills %}
-    <div class="title">{{ cv.labels.skills | replace: '%', sks.category }}</div>
-    {% for sk in sks.skill%}
-    <div class="skill">{{sk}}</div>
-    {% endfor %}
+    <div class="skill-row">
+        <div class="category">{{sks.category}}</div>
+        <div class="skill">{{ sks.skill | join: ', ' }}</div>
+    </div>
     {% endfor %}
 </section>
 {% endif %}

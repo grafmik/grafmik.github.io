@@ -1,23 +1,17 @@
 .education {
-    margin-bottom: 20px;
     .title {
-        @include sub-header;
+        @include header;
     }
     .education-item {
-        margin-bottom: 20px;
+        display: flex;
+        gap: 8px;
+        @include body-text;
         .degree {
-            @include body-text;
             font-weight: bold;
         }
-        .option {
-            @include body-text;
-            font-style: italic;
-        }
-        .university {
-            @include body-text;
-        }
         .time {
-            @include body-text;
+            margin-left: auto;
+            color: var(--fg-color-title-sm);
         }
     }
 }

@@ -9,7 +9,7 @@ labels:
   contact: Contact
   languages: Langues
   education: Formation
-  skills: Compétences %
+  skills: Compétences techniques
   technologies: "Environnement technique :"
   print: Imprimer ou enregistrer en PDF
   switch_url: /en/
@@ -37,6 +37,10 @@ education:
     time: 2026
     university: Harvard Business School Online
 
+  - degree: Formation développement web et mobile
+    time: 2015
+    university: Ateliers Nomades, Genève
+
   - degree: MBA, option Gestion de projet
     time: 2009
     university: IAE Sorbonne, Paris
@@ -44,10 +48,6 @@ education:
   - degree: Ingénieur en informatique, option Logiciel
     time: 2002
     university: UTBM, Belfort
-
-  - degree: Formation développement web et mobile
-    time: 2015
-    university: Ateliers Nomades, Genève
 
 skills:
   - category: Back-end

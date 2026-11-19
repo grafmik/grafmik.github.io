@@ -1,13 +1,16 @@
 .languages {
-    margin-bottom: 20px;
     .title {
-        @include sub-header;
+        @include header;
     }
-    .idiom {
+    // Les langues tiennent sur une ligne, les unes à côté des autres
+    .language-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 32px;
         @include body-text;
-        font-weight: bold;
-    }
-    .level {
-        @include body-text;
+        .idiom {
+            font-weight: bold;
+            margin-right: 6px;
+        }
     }
 }

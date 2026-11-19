@@ -45,23 +45,16 @@
         .container-block {
             width: 100%;
             padding: 0;
-            gap: 8mm;
-
-            .sidebar {
-                margin-top: 0;
-                padding-right: 0;
-            }
         }
     }
 
     // Sélecteur renforcé : header.scss, importé après, impose width: 90% (en-tête décalé)
-    .container .header,
-    .container .header2 {
+    .container .header {
         width: 100%;
     }
 
     // Sélecteur renforcé : header.scss, importé après, redéfinit display
-    .container .header .header-actions {
+    .container .header-actions {
         display: none;
     }
 
@@ -84,5 +77,21 @@
 
     .experiance .experience-item {
         margin-bottom: 10px;
+    }
+
+    // Sans colonne de gauche, tout tient dans la colonne principale : on
+    // resserre la ligne « Environnement technique » (marges de <p> par défaut)
+    .experiance .experience-item .technologies {
+        margin: 4px 0 0;
+    }
+
+    // Interligne un peu plus serré qu'à l'écran (1.5 dans _base.scss)
+    * {
+        line-height: 1.4;
+    }
+
+    // Titres de section (Profil, Formation...) : marges du <h2> réduites
+    section > h2.title {
+        margin: 16px 0 8px;
     }
 }

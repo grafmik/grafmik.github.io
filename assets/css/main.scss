@@ -2,8 +2,6 @@
 ---
 
 @import "base";
-@import "print";
-@import "responsive";
 @import "mixins";
 @import "skins/{{ site.theme_skin}}";
 
@@ -17,3 +15,7 @@
 @import "includes/publications";
 @import "includes/projects";
 @import "includes/volunteering";
+
+// En dernier : les règles mobiles et d'impression doivent l'emporter sur celles des sections
+@import "responsive";
+@import "print";

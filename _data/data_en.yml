@@ -9,7 +9,7 @@ labels:
   contact: Contact
   languages: Languages
   education: Education
-  skills: "% skills"
+  skills: Technical skills
   technologies: "Tech stack:"
   print: Print or save as PDF
   switch_url: /
@@ -37,6 +37,10 @@ education:
     time: 2026
     university: Harvard Business School Online
 
+  - degree: Web and mobile development training
+    time: 2015
+    university: Ateliers Nomades, Geneva
+
   - degree: MBA, Project management major
     time: 2009
     university: IAE Sorbonne, Paris
@@ -44,10 +48,6 @@ education:
   - degree: MSc in Computer Engineering, Software major
     time: 2002
     university: UTBM, Belfort, France
-
-  - degree: Web and mobile development training
-    time: 2015
-    university: Ateliers Nomades, Geneva
 
 skills:
   - category: Back-end

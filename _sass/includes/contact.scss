@@ -1,20 +1,20 @@
 @mixin contact-element {
     text-decoration: none;
-    padding-top: 4px;
-    padding-left: 4px;
+    padding-left: 6px;
     @include body-text;
 }
 
+// Coordonnées dans l'en-tête, à droite du nom, sur deux colonnes
 .contact {
-    margin-bottom: 20px;
-    .title {
-        @include sub-header;
-    }
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    flex-shrink: 0;
     .contact-item {
         display: flex;
         align-items: center;
         svg {
-            width: 18px;
+            width: 16px;
             display: inline-block;
             color: var(--fg-color);
         }

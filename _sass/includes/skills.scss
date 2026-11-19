@@ -1,10 +1,15 @@
 .skills {
-    margin-bottom: 20px;
     .title {
-        margin-top: 20px;
-        @include sub-header;
+        @include header;
     }
-    .skill {
+    .skill-row {
+        display: grid;
+        grid-template-columns: 140px 1fr;
+        gap: 12px;
         @include body-text;
+        .category {
+            font-weight: bold;
+            color: var(--fg-color);
+        }
     }
 }
